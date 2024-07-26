@@ -1,6 +1,5 @@
 import copy
 from operator import itemgetter
-from load_file import load_telcom, load_EUA, load_telcom_cpy
 
 # select the BS covering the most users
 def max_cover_first(cover):
